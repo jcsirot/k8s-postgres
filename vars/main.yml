@@ -1,8 +1,8 @@
 ---
 postgres_resources:
-  - file: postgres-secrets.yaml
-    resource: secret
-    name: postgres-config
+#  - file: postgres-secrets.yaml
+#    resource: secret
+#    name: postgres-config
 
   - file: postgres-rc.yaml
     resource: rc
